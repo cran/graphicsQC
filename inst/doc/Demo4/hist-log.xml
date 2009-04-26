@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<qcPlotExprResult>
+ <info>
+  <OS>unix</OS>
+  <Rver>R version 2.10.0 Under development (unstable) (2009-04-22 r48368)</Rver>
+  <date>2009-04-27 10:04:11</date>
+  <call>
+   <![CDATA[
+   Called from plotFunction()   ]]>
+  </call>
+  <directory>/home/staff/paul/Research/Rstuff/QA/graphicsqc/pkg/inst/doc/Demo4</directory>
+  <logFilename>hist-log.xml</logFilename>
+ </info>
+ <plots type="pdf">
+  <warnings>the AREAS in the plot are wrong -- rather use freq=FALSE</warnings>
+  <error/>
+  <plot>hist-1.pdf</plot>
+  <plot>hist-2.pdf</plot>
+  <plot>hist-3.pdf</plot>
+ </plots>
+ <plots type="png">
+  <warnings>the AREAS in the plot are wrong -- rather use freq=FALSE</warnings>
+  <error/>
+  <plot>hist-1.png</plot>
+  <plot>hist-2.png</plot>
+  <plot>hist-3.png</plot>
+ </plots>
+ <plots type="ps">
+  <warnings>the AREAS in the plot are wrong -- rather use freq=FALSE</warnings>
+  <error/>
+  <plot>hist-1.ps</plot>
+  <plot>hist-2.ps</plot>
+  <plot>hist-3.ps</plot>
+ </plots>
+</qcPlotExprResult>

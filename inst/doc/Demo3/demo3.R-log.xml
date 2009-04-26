@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<qcPlotExprResult>
+ <info>
+  <OS>unix</OS>
+  <Rver>R version 2.10.0 Under development (unstable) (2009-04-22 r48368)</Rver>
+  <date>2009-04-27 10:04:10</date>
+  <call>
+   <![CDATA[
+   Called from plotFile()   ]]>
+  </call>
+  <directory>/home/staff/paul/Research/Rstuff/QA/graphicsqc/pkg/inst/doc/Demo3</directory>
+  <logFilename>demo3.R-log.xml</logFilename>
+ </info>
+ <plots type="pdf">
+  <warnings/>
+  <error/>
+  <plot>demo3.R-1.pdf</plot>
+  <plot>demo3.R-2.pdf</plot>
+  <plot>demo3.R-3.pdf</plot>
+  <plot>demo3.R-4.pdf</plot>
+  <plot>demo3.R-5.pdf</plot>
+ </plots>
+ <plots type="png">
+  <warnings/>
+  <error/>
+  <plot>demo3.R-1.png</plot>
+  <plot>demo3.R-2.png</plot>
+  <plot>demo3.R-3.png</plot>
+  <plot>demo3.R-4.png</plot>
+  <plot>demo3.R-5.png</plot>
+ </plots>
+ <plots type="ps">
+  <warnings/>
+  <error/>
+  <plot>demo3.R-1.ps</plot>
+  <plot>demo3.R-2.ps</plot>
+  <plot>demo3.R-3.ps</plot>
+  <plot>demo3.R-4.ps</plot>
+  <plot>demo3.R-5.ps</plot>
+ </plots>
+</qcPlotExprResult>

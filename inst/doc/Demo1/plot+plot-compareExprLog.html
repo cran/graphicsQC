@@ -1,0 +1,221 @@
+<?xml version="1.0" standalone="yes"?>
+<html>
+  <head>
+    <title>Compare Expression Result</title>
+    <style type="text/css">
+      table {border: 1px solid #585858;
+             background-color: #D8D8D8;}
+      th {background-color: #80add6;
+          font-weight: bold;
+          text-align: left;
+          padding-left: 5px;
+          padding-right: 5px;
+          padding-top: 3px;
+          padding-bottom: 3px;}
+      td {background-color: #fdfad9;
+          padding-left: 5px;
+          padding-right: 5px;
+          padding-top: 3px;
+          padding-bottom: 3px;}
+      .topAlign {vertical-align: top}
+    </style>
+  </head>
+  <body>
+    <h1>Compare Expression Result</h1>
+    <ol>
+      <li>
+        <a href="#info">Info</a>
+      </li>
+      <li>
+        <a href="#plotComp">Plot Comparisons</a>
+      </li>
+      <li>
+        <a href="#warnsErrors">Warnings/Errors Differences</a>
+      </li>
+      <li>
+        <a href="#unpaired">Unpaired</a>
+      </li>
+    </ol>
+    <h2>
+      <a name="info">Info</a>
+    </h2>
+    <table>
+      <tr>
+        <th/>
+        <th style="text-align: center">Test</th>
+        <th style="text-align: center">Control</th>
+        <th style="text-align: center">Comparison</th>
+      </tr>
+      <tr>
+        <th>Version</th>
+        <td>R version 2.10.0 Under development (unstable) (2009-04-22 r48368)</td>
+        <td>R version 2.10.0 Under development (unstable) (2009-04-22 r48368)</td>
+        <td>R version 2.10.0 Under development (unstable) (2009-04-22 r48368)</td>
+      </tr>
+      <tr>
+        <th>OS</th>
+        <td>unix</td>
+        <td>unix</td>
+        <td>unix</td>
+      </tr>
+      <tr>
+        <th>Date</th>
+        <td>2009-04-27 10:04:09</td>
+        <td>2009-04-27 10:04:09</td>
+        <td>Mon Apr 27 10:04:13 2009</td>
+      </tr>
+      <tr>
+        <th>Call</th>
+        <td style="font-family: monospace">
+   
+   plotExpr("plot(pressure)", path = "Demo1", prefix = "plot")   
+  </td>
+        <td style="font-family: monospace">
+   
+   plotExpr(c("plot(pressure^.125 ~ temperature, data=pressure)", 
+    "plot(lm(pressure^.125 ~ temperature, data=pressure))"), 
+    path = "Demo2", prefix = "plot")   
+  </td>
+        <td style="font-family: monospace">
+   
+   compare(demo1Result, "Demo2/plot-log.xml")   
+  </td>
+      </tr>
+      <tr>
+        <th>Directory</th>
+        <td>/home/staff/paul/Research/Rstuff/QA/graphicsqc/pkg/inst/doc/Demo1</td>
+        <td>/home/staff/paul/Research/Rstuff/QA/graphicsqc/pkg/inst/doc/Demo2</td>
+        <td>/home/staff/paul/Research/Rstuff/QA/graphicsqc/pkg/inst/doc/Demo1</td>
+      </tr>
+      <tr>
+        <th>Log Filename</th>
+        <td>
+          <a href="/home/staff/paul/Research/Rstuff/QA/graphicsqc/pkg/inst/doc/Demo1/plot-log.html">plot-log.xml</a>
+        </td>
+        <td>
+          <a href="/home/staff/paul/Research/Rstuff/QA/graphicsqc/pkg/inst/doc/Demo2/plot-log.html">plot-log.xml</a>
+        </td>
+        <td>plot+plot-compareExprLog.xml</td>
+      </tr>
+    </table>
+    <br/>
+    <h2>
+      <a name="plotComp">Plot Comparisons</a>
+    </h2>
+    <h3>Different plots</h3>
+    <table>
+      <tr>
+        <th>Format</th>
+        <th>Test</th>
+        <th>Control</th>
+        <th>Diff output</th>
+        <th>Plot of differences</th>
+      </tr>
+      <tr>
+        <td rowspan="1" class="topAlign">pdf</td>
+        <td>
+          <a href="/home/staff/paul/Research/Rstuff/QA/graphicsqc/pkg/inst/doc/Demo1/plot-1.pdf">plot-1.pdf</a>
+        </td>
+        <td>
+          <a href="/home/staff/paul/Research/Rstuff/QA/graphicsqc/pkg/inst/doc/Demo2/plot-1.pdf">plot-1.pdf</a>
+        </td>
+        <td>
+          <a href="/home/staff/paul/Research/Rstuff/QA/graphicsqc/pkg/inst/doc/Demo1/plot-1-pdf+plot-1-pdf.diff">plot-1-pdf+plot-1-pdf.diff</a>
+        </td>
+        <td>
+          <a href="/home/staff/paul/Research/Rstuff/QA/graphicsqc/pkg/inst/doc/Demo1/plot-1-pdf+plot-1-pdf.png">plot-1-pdf+plot-1-pdf.png</a>
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="1" class="topAlign">png</td>
+        <td>
+          <a href="/home/staff/paul/Research/Rstuff/QA/graphicsqc/pkg/inst/doc/Demo1/plot-1.png">plot-1.png</a>
+        </td>
+        <td>
+          <a href="/home/staff/paul/Research/Rstuff/QA/graphicsqc/pkg/inst/doc/Demo2/plot-1.png">plot-1.png</a>
+        </td>
+        <td>
+          <a href="/home/staff/paul/Research/Rstuff/QA/graphicsqc/pkg/inst/doc/Demo1/"></a>
+        </td>
+        <td>
+          <a href="/home/staff/paul/Research/Rstuff/QA/graphicsqc/pkg/inst/doc/Demo1/plot-1-png+plot-1-png.png">plot-1-png+plot-1-png.png</a>
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="1" class="topAlign">ps</td>
+        <td>
+          <a href="/home/staff/paul/Research/Rstuff/QA/graphicsqc/pkg/inst/doc/Demo1/plot-1.ps">plot-1.ps</a>
+        </td>
+        <td>
+          <a href="/home/staff/paul/Research/Rstuff/QA/graphicsqc/pkg/inst/doc/Demo2/plot-1.ps">plot-1.ps</a>
+        </td>
+        <td>
+          <a href="/home/staff/paul/Research/Rstuff/QA/graphicsqc/pkg/inst/doc/Demo1/plot-1-ps+plot-1-ps.diff">plot-1-ps+plot-1-ps.diff</a>
+        </td>
+        <td>
+          <a href="/home/staff/paul/Research/Rstuff/QA/graphicsqc/pkg/inst/doc/Demo1/plot-1-ps+plot-1-ps.png">plot-1-ps+plot-1-ps.png</a>
+        </td>
+      </tr>
+    </table>
+    <h3>Identical plots</h3>
+    <p>No identical plots were found.</p>
+    <h2>
+      <a name="warnsErrors">Warnings/Errors Differences</a>
+    </h2>
+    <p>No differences in warnings/errors were found.</p>
+    <h2>
+      <a name="unpaired">Unpaired</a>
+    </h2>
+    <table>
+      <tr>
+        <th/>
+        <th>Format</th>
+        <th>Test</th>
+        <th>Control</th>
+      </tr>
+      <tr>
+        <th rowspan="3" class="topAlign">Plots</th>
+        <td>pdf</td>
+        <td/>
+        <td>
+          <a href="/home/staff/paul/Research/Rstuff/QA/graphicsqc/pkg/inst/doc/Demo2/plot-2.pdf">plot-2.pdf</a>
+          <br/>
+          <a href="/home/staff/paul/Research/Rstuff/QA/graphicsqc/pkg/inst/doc/Demo2/plot-3.pdf">plot-3.pdf</a>
+          <br/>
+          <a href="/home/staff/paul/Research/Rstuff/QA/graphicsqc/pkg/inst/doc/Demo2/plot-4.pdf">plot-4.pdf</a>
+          <br/>
+          <a href="/home/staff/paul/Research/Rstuff/QA/graphicsqc/pkg/inst/doc/Demo2/plot-5.pdf">plot-5.pdf</a>
+          <br/>
+        </td>
+      </tr>
+      <tr>
+        <td>png</td>
+        <td/>
+        <td>
+          <a href="/home/staff/paul/Research/Rstuff/QA/graphicsqc/pkg/inst/doc/Demo2/plot-2.png">plot-2.png</a>
+          <br/>
+          <a href="/home/staff/paul/Research/Rstuff/QA/graphicsqc/pkg/inst/doc/Demo2/plot-3.png">plot-3.png</a>
+          <br/>
+          <a href="/home/staff/paul/Research/Rstuff/QA/graphicsqc/pkg/inst/doc/Demo2/plot-4.png">plot-4.png</a>
+          <br/>
+          <a href="/home/staff/paul/Research/Rstuff/QA/graphicsqc/pkg/inst/doc/Demo2/plot-5.png">plot-5.png</a>
+          <br/>
+        </td>
+      </tr>
+      <tr>
+        <td>ps</td>
+        <td/>
+        <td>
+          <a href="/home/staff/paul/Research/Rstuff/QA/graphicsqc/pkg/inst/doc/Demo2/plot-2.ps">plot-2.ps</a>
+          <br/>
+          <a href="/home/staff/paul/Research/Rstuff/QA/graphicsqc/pkg/inst/doc/Demo2/plot-3.ps">plot-3.ps</a>
+          <br/>
+          <a href="/home/staff/paul/Research/Rstuff/QA/graphicsqc/pkg/inst/doc/Demo2/plot-4.ps">plot-4.ps</a>
+          <br/>
+          <a href="/home/staff/paul/Research/Rstuff/QA/graphicsqc/pkg/inst/doc/Demo2/plot-5.ps">plot-5.ps</a>
+          <br/>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

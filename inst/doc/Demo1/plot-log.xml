@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<qcPlotExprResult>
+ <info>
+  <OS>unix</OS>
+  <Rver>R version 2.10.0 Under development (unstable) (2009-04-22 r48368)</Rver>
+  <date>2009-04-27 10:04:09</date>
+  <call>
+   <![CDATA[
+   plotExpr("plot(pressure)", path = "Demo1", prefix = "plot")   ]]>
+  </call>
+  <directory>/home/staff/paul/Research/Rstuff/QA/graphicsqc/pkg/inst/doc/Demo1</directory>
+  <logFilename>plot-log.xml</logFilename>
+ </info>
+ <plots type="pdf">
+  <warnings/>
+  <error/>
+  <plot>plot-1.pdf</plot>
+ </plots>
+ <plots type="png">
+  <warnings/>
+  <error/>
+  <plot>plot-1.png</plot>
+ </plots>
+ <plots type="ps">
+  <warnings/>
+  <error/>
+  <plot>plot-1.ps</plot>
+ </plots>
+</qcPlotExprResult>

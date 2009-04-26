@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<qcPlotFileResult>
+ <info>
+  <OS>unix</OS>
+  <Rver>R version 2.10.0 Under development (unstable) (2009-04-22 r48368)</Rver>
+  <date>2009-04-27 10:04:10</date>
+  <call>
+   <![CDATA[
+   plotFile("demo3.R", path = "Demo3")   ]]>
+  </call>
+  <directory>/home/staff/paul/Research/Rstuff/QA/graphicsqc/pkg/inst/doc/Demo3</directory>
+  <logFilename>demo3.R-fileLog.xml</logFilename>
+ </info>
+ <qcPlotExprResult>/home/staff/paul/Research/Rstuff/QA/graphicsqc/pkg/inst/doc/Demo3/demo3.R-log.xml</qcPlotExprResult>
+</qcPlotFileResult>
