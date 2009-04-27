@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<qcPlotExprResult>
+ <info>
+  <OS>unix</OS>
+  <Rver>R version 2.10.0 Under development (unstable) (2009-04-22 r48368)</Rver>
+  <date>2009-04-27 10:04:09</date>
+  <call>
+   <![CDATA[
+   plotExpr(c("plot(pressure^.125 ~ temperature, data=pressure)", 
+    "plot(lm(pressure^.125 ~ temperature, data=pressure))"), 
+    path = "Demo2", prefix = "plot")   ]]>
+  </call>
+  <directory>/home/staff/paul/Research/Rstuff/QA/graphicsqc/pkg/inst/doc/Demo2</directory>
+  <logFilename>plot-log.xml</logFilename>
+ </info>
+ <plots type="pdf">
+  <warnings/>
+  <error/>
+  <plot>plot-1.pdf</plot>
+  <plot>plot-2.pdf</plot>
+  <plot>plot-3.pdf</plot>
+  <plot>plot-4.pdf</plot>
+  <plot>plot-5.pdf</plot>
+ </plots>
+ <plots type="png">
+  <warnings/>
+  <error/>
+  <plot>plot-1.png</plot>
+  <plot>plot-2.png</plot>
+  <plot>plot-3.png</plot>
+  <plot>plot-4.png</plot>
+  <plot>plot-5.png</plot>
+ </plots>
+ <plots type="ps">
+  <warnings/>
+  <error/>
+  <plot>plot-1.ps</plot>
+  <plot>plot-2.ps</plot>
+  <plot>plot-3.ps</plot>
+  <plot>plot-4.ps</plot>
+  <plot>plot-5.ps</plot>
+ </plots>
+</qcPlotExprResult>

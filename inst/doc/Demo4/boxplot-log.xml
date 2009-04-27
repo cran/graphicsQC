@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<qcPlotExprResult>
+ <info>
+  <OS>unix</OS>
+  <Rver>R version 2.10.0 Under development (unstable) (2009-04-22 r48368)</Rver>
+  <date>2009-04-27 10:04:10</date>
+  <call>
+   <![CDATA[
+   Called from plotFunction()   ]]>
+  </call>
+  <directory>/home/staff/paul/Research/Rstuff/QA/graphicsqc/pkg/inst/doc/Demo4</directory>
+  <logFilename>boxplot-log.xml</logFilename>
+ </info>
+ <plots type="pdf">
+  <warnings>some notches went outside hinges (&apos;box&apos;): maybe set notch=FALSE</warnings>
+  <error/>
+  <plot>boxplot-1.pdf</plot>
+  <plot>boxplot-2.pdf</plot>
+  <plot>boxplot-3.pdf</plot>
+  <plot>boxplot-4.pdf</plot>
+  <plot>boxplot-5.pdf</plot>
+  <plot>boxplot-6.pdf</plot>
+ </plots>
+ <plots type="png">
+  <warnings>some notches went outside hinges (&apos;box&apos;): maybe set notch=FALSE</warnings>
+  <error/>
+  <plot>boxplot-1.png</plot>
+  <plot>boxplot-2.png</plot>
+  <plot>boxplot-3.png</plot>
+  <plot>boxplot-4.png</plot>
+  <plot>boxplot-5.png</plot>
+  <plot>boxplot-6.png</plot>
+ </plots>
+ <plots type="ps">
+  <warnings>some notches went outside hinges (&apos;box&apos;): maybe set notch=FALSE</warnings>
+  <error/>
+  <plot>boxplot-1.ps</plot>
+  <plot>boxplot-2.ps</plot>
+  <plot>boxplot-3.ps</plot>
+  <plot>boxplot-4.ps</plot>
+  <plot>boxplot-5.ps</plot>
+  <plot>boxplot-6.ps</plot>
+ </plots>
+</qcPlotExprResult>
