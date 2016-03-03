@@ -1,6 +1,6 @@
 7006e2d0830a3144f735a7b7b9f62a08 *ChangeLog
-e6b8e983f0c207309b6276d95ef80628 *DESCRIPTION
-84c37a9b8ffcd660321b0f32ab87c309 *NAMESPACE
+a52da708874a499988b77df3f7b7b384 *DESCRIPTION
+3af1a4b1204d2bce336e286d328f79f0 *NAMESPACE
 91deae43a54ef0710ed71170d463aaf0 *R/compare.R
 ee950b0f13ef2981956f2df15bcd8575 *R/graphicsQC.R
 a737b94c3d34f3c270ff218c1f9aef32 *R/log.R
@@ -90,7 +90,7 @@ e21e02bd33c67986b1a385a39a307f5f *inst/doc/arcCurvature-1-png+arcCurvature-1-png
 e970bc45acdfb6478f98f95795b4945e *inst/doc/demo3.R
 72fc7d4fa1a74eb482288f0967604e4b *inst/doc/graphicsqc-org.pdf
 4af2d03cd25353a68ef24512a16c44c5 *inst/doc/graphicsqc.bib
-ef3ccac010506660cc3b4f34adc4037f *inst/doc/graphicsqc.pdf
+3a61104b29e725b4be5203e2ceacb0cc *inst/doc/graphicsqc.pdf
 bc6ad8e174b4e0422b541230ecc94f11 *inst/doc/grid-gedit-1-png+grid-gedit-1-png.png
 846e2c05d89f408d513e414371809ffa *inst/doc/gridDiagramQC.R
 6de6a5fd239b4d2abed37d550bf9b5c8 *inst/doc/gridreportA.png
